@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font: normal normal normal 80px/1.4em Jura,sans-serif;    
+}
+#main {
+    background-image: url("../images/img01.jpg");
+    background-size: cover;
+    height: 1070px;
+    width: 100%;
+    background-position: center;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.accordion {
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 13px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+}
+.mrg {
+    margin-top: 30px;    
+}
+.active, .accordion:hover {
+    color: #FFBB00;
+}
+.panel {
+    padding: 0 18px;
+    height: 200px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+.panel h2 > span{
+    color: rgba(0,208,255,1);
+}
+.panel h5 > b {
+    color: white;
+    font-weight: 400;
+}
+.col-md-6 {
+    padding-top: 35px;      
+}
+.panel h6 > span {
+    color: white;
+    font-size: 20px;  
+}
+.panel h6 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+.parag {
+    font-size: 14px;
+    color: #ffffff;
+}
+.panel h4 {
+    padding-top: 55px;    
+}
+.panel h4 span {
+    color: #ffffff;
+    font-size: 40px;
+}
+.panel .parag01 {
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 0;    
+}
+.panel .column01 {
+    text-align: center;
+}
+.panel .column01 a {
+    text-decoration: none;
+}
+.panel .column01 a i {
+    font-size: 17px;
+    color: white;
+}
